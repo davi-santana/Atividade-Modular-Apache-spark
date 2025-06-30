@@ -18,8 +18,12 @@
 
 <h2>📂 Conjunto de Dados</h2>
 <p>
-  Os arquivos de dados utilizados neste projeto estão incluídos na pasta <code>/data</code> do repositório, com os seguintes arquivos principais:
+  Os dados utilizados foram obtidos a partir do seguinte repositório público:
 </p>
+  <p>
+    🔗 <a href="https://homepages.dcc.ufmg.br/~pcalais/XPE/engenharia-dados/big-data-spark/desafio/" target="_blank" rel="noopener noreferrer">
+      https://homepages.dcc.ufmg.br/~pcalais/XPE/engenharia-dados/big-data-spark/desafio/
+    </a>
 <ul>
   <li><code>estabelecimentos.csv</code> – Contém informações cadastrais dos estabelecimentos.</li>
   <li><code>cnaes.csv</code> – Lista dos CNAEs com suas descrições e códigos.</li>
@@ -40,3 +44,15 @@
   <li>Quantos estabelecimentos possuem um CNAE relacionado a cultivo?</li>
   <li>Quantos estabelecimentos são filiais?</li>
 </ol>
+
+<h2>🚀 Como Executar</h2>
+<p>Para executar a análise, siga os passos abaixo:</p>
+<ol>
+  <li>Acesse o notebook no <strong>Google Colab</strong> (se disponível) ou abra o arquivo <code>analise_estabelecimentos.py</code> no seu ambiente local.</li>
+  <li>Certifique-se de que o Apache Spark e Python 3 estão instalados no seu ambiente (caso local).</li>
+  <li>Se estiver usando o Colab, configure o ambiente para usar PySpark (normalmente já disponível ou pode ser instalado via comandos no notebook).</li>
+  <li>Garanta que os arquivos CSV estejam na pasta <code>/data</code> para que o script consiga lê-los corretamente.</li>
+  <li>Execute as células do notebook ou rode o script Python para gerar os resultados.</li>
+</ol>
+<p>Se desejar, você pode adaptar o script para salvar resultados ou gerar relatórios conforme sua necessidade.</p>
+
